@@ -7,16 +7,10 @@ export default function Hero() {
         <div
           className="absolute inset-0"
           style={{
-            background: `
-              radial-gradient(
-                circle at 50% 20%,
-                rgba(255, 164, 108, 0.35) 0%,
-                rgba(255, 225, 201, 0.4) 40%,
-                rgba(255, 249, 245, 0.95) 80%
-              )
-            `,
-            transform: "scale(1.4)",
-            filter: "blur(20px)",
+            backgroundImage: "url('/background.svg')",
+            backgroundSize: "obtain",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat"
           }}
         ></div>
 

@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-[#112967] mb-6">About Nexlogicx</h2>
+            <h2 className="text-4xl md:text-5xl text-[#112967] mb-6">About <span className="font-semibold">Nexlogicx</span> </h2>
             <p className="text-[#666666] text-lg mb-4">
               Founded in 2021, Nexlogicx is a reliable and user-friendly Point of Sale (POS) system designed to simplify sales and stock management for small and medium-sized businesses.
             </p>

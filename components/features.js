@@ -36,8 +36,8 @@ export default function Features() {
         <h2 className="text-4xl md:text-5xl font-bold text-[#F34B1E] mb-4">
           Boost Your Sales Fast
         </h2>
-        <p className="text-[#666666] text-lg mb-12 max-w-2xl">
-          Lorem ipsum has been the industry's standard dummy text ever since the 1500s
+        <p className="text-[#1C1C1C] text-lg mb-12 max-w-2xl">
+          From billing to stock control — Nexlogicx handles it all in one place.
         </p>
 
         {/* Features Grid */}

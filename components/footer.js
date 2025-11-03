@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="w-full text-white py-12 md:py-16" style={{ backgroundColor: "#112967" }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-16">
-        {/* ---------- Top Section ---------- */}
+
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 pb-10 border-b border-[#E5E5E5]">
           <h3 className="text-2xl sm:text-3xl font-normal text-white leading-relaxed text-center md:text-left">
             Boost your sales with our <br className="hidden sm:block" /> powerful software
@@ -19,12 +19,24 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ---------- Links Section ---------- */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 sm:gap-12 lg:gap-16 py-10 border-b border-[#E5E5E5] text-center sm:text-left">
-          {/* Products */}
+
           <div>
             <h4 className="font-semibold text-white mb-4 text-base inline-block border-b-2 border-[#E5E5E5] pb-1">
-              Products
+              About Us
+            </h4>
+            <ul className="space-y-3">
+              <li><p className="text-white">
+                At Nexlogicx, we believe technology
+                should make business management
+                effortless.
+              </p></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-white mb-4 text-base inline-block border-b-2 border-[#E5E5E5] pb-1">
+              Company
             </h4>
             <ul className="space-y-3">
               <li><a href="#" className="text-white hover:text-gray-300 transition-colors">FAQs</a></li>
@@ -33,17 +45,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
-          <div>
-            <h4 className="font-semibold text-white mb-4 text-base inline-block border-b-2 border-[#E5E5E5] pb-1">
-              Company
-            </h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-white hover:text-gray-300 transition-colors">Contact Us</a></li>
-            </ul>
-          </div>
-
-          {/* Connect */}
           <div>
             <h4 className="font-semibold text-white mb-4 text-base inline-block border-b-2 border-[#E5E5E5] pb-1">
               Connect
@@ -61,7 +62,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-semibold text-white mb-4 text-base inline-block border-b-2 border-[#E5E5E5] pb-1">
               Contact
@@ -72,9 +72,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ---------- Bottom Section ---------- */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-[#2A4A7C]">
-          {/* Logos */}
+
           <div className="flex items-center justify-center sm:justify-start gap-3">
             <img
               src="/footer-logo1.png"
@@ -88,7 +87,6 @@ export default function Footer() {
             />
           </div>
 
-          {/* Copyright */}
           <p className="text-white text-sm sm:text-base text-center sm:text-right">
             © 2025 Nexlogicx. All rights reserved.
           </p>

@@ -5,12 +5,14 @@ import Features from "@/components/features"
 import Trial from "@/components/trial"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
+import HeroSection from "../components/HeroSection"
 
 export default function Home() {
   return (
     <main className="w-full">
-      <Header />
-      <Hero />
+      {/* <Header />
+      <Hero /> */}
+      <HeroSection />
       <About />
       <Features />
       <Trial />
