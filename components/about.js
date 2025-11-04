@@ -37,7 +37,7 @@ export default function About() {
 
           {/* Right Image */}
           <div className="relative">
-            <img src="/about-image.png" alt="Team working" className="w-full h-auto rounded-lg shadow-lg" />
+            <img src="/about-image.webp" alt="Team working" className="w-full h-auto rounded-lg shadow-lg" />
           </div>
 
         </div>

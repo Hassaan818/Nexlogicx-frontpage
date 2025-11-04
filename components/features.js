@@ -22,13 +22,8 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="flex mb-8">
-          <div className="inline-flex items-center gap-3 bg-white px-3 py-1 rounded-full text-sm font-medium shadow-xl">
-            <span className="bg-[#F34B1E] text-white text-xs font-semibold px-3 py-1 rounded-full">
-              Share
-            </span>
-            <span className="text-[#131313]">
-              Powerful tool Simple Workflow
-            </span>
+          <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6" style={{ backgroundColor: '#FF5438' }}>
+            <span className="text-sm font-medium text-white">Features</span>
           </div>
         </div>
 

@@ -123,3 +123,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchor jump for fixed header */
+section {
+  scroll-margin-top: 96px; /* header height approx */
+}

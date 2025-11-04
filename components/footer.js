@@ -76,12 +76,12 @@ export default function Footer() {
 
           <div className="flex items-center justify-center sm:justify-start gap-3">
             <img
-              src="/footer-logo1.png"
+              src="/footer-logo1.webp"
               alt="Nexlogicx Icon"
               className="h-8 w-auto object-contain align-middle"
             />
             <img
-              src="/footer-logo2.png"
+              src="/footer-logo2.webp"
               alt="Nexlogicx Text"
               className="h-8 w-auto object-contain align-middle"
             />
