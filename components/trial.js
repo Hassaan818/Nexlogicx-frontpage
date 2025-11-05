@@ -18,7 +18,7 @@ export default function Trial() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="flex flex-col items-start">
-            <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6" style={{ backgroundColor: '#FF5438' }}>
+            <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6 bg-gradient-to-r from-[#FB432C] to-[#FF591E]">
               <span className="text-sm font-medium text-white">Free for 30 Days</span>
             </div>
             <h2 className="text-5xl md:text-[56px] lg:text-[64px] leading-tight mb-8" style={{ color: '#1C3664' }}>

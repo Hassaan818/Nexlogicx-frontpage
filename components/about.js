@@ -9,7 +9,7 @@ export default function About() {
     <section className="w-full bg-white py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Badge */}
-        <div className="inline-flex items-center gap-2 bg-[#F34B1E] px-4 py-2 rounded-full mb-8">
+          <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6 bg-gradient-to-r from-[#FB432C] to-[#FF591E]">
           <span className="text-sm text-white">About Nexlogicx</span>
         </div>
 

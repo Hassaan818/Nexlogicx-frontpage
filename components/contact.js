@@ -88,7 +88,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-start">
           <div className="w-full max-w-xl">
-            <div className="inline-flex items-center bg-[#FF5722] px-4 py-1.5 rounded-full mb-6">
+            <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6 bg-gradient-to-r from-[#FB432C] to-[#FF591E]">
               <span className="text-sm font-medium text-white">Get in touch</span>
             </div>
             <h2 className="text-4xl md:text-5xl text-[#112967] mb-4 leading-tight">
@@ -170,7 +170,7 @@ export default function Contact() {
 
               <div className="mt-4">
                 <ReCAPTCHA
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "123abc"}
                   onChange={handleRecaptchaChange}
                 />
                 {errors.recaptcha && <span className="text-red-500 text-sm">{errors.recaptcha}</span>}

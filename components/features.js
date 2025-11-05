@@ -22,7 +22,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="flex mb-8">
-          <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6" style={{ backgroundColor: '#FF5438' }}>
+          <div className="inline-flex items-center px-6 py-2.5 rounded-full mb-6 bg-gradient-to-r from-[#FB432C] to-[#FF591E]">
             <span className="text-sm font-medium text-white">Features</span>
           </div>
         </div>
